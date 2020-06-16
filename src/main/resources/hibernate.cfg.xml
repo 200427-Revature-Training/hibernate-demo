@@ -1,0 +1,44 @@
+<!DOCTYPE hibernate-configuration SYSTEM "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- SessionFactory is the central class/object that represents Hibernate.
+		The SessionFactory is intended to be a long-lived object provide access to persistence.
+		The SessionFactory is utilized to retrieve Session objects which we can then call persistence
+		tasks upon. We can get the SessionFactory using a Configuration implementation -->
+		
+		<!-- The driver to use to interact with the database - this could be one of many different
+		DB drivers -->
+		<property name="hibernate.connection.driver_class">
+			org.postgresql.Driver
+		</property>
+		
+		
+		<!-- JDBC Connection String -->
+		<!-- jdbc:db-name://host/internal-database -->
+		<!-- Localhost PostgreSQL: jdbc:postgresql://localhost:5432/postgres -->
+		<!-- AWS PostgreSQL jdbc:postgresql://<aws-dns>/postgres -->
+		<!-- 
+		<property name="hibernate.connection.url">
+			
+		</property>
+		
+		<property name="hibernate.connection.username"></property>
+		<property name="hibernate.connection.password"></property>
+		 -->
+		 
+		 <!-- Will console generated SQL statements when Hibernate is utilized - very useful
+		 for learning and understanding Hibernate -->
+		 <property name="show_sql">true</property>
+		 
+		 <!-- We are leveraging Hibernate's built in connection pooling. This is not production
+		 grade! If you want a production ready connection pool consider the C3PO package -->
+		 <property name="hibernate.connection.pool_size">1</property>
+		 
+		 <!-- What form of SQL should be generated -->
+		 <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+		 
+		 <!-- https://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#configurations-hbmddl -->
+		 <property name="hibernate.hbm2ddl.auto">update</property>
+		 
+	</session-factory>
+</hibernate-configuration>
