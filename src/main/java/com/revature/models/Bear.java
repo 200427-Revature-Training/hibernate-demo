@@ -1,17 +1,24 @@
 package com.revature.models;
 
 import java.time.LocalDate;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
 /**
- * @Entity - Defines that a class can have its persistence managed by a JPA/Hibernate
+ * @Entity - Defines that a class can have its persistence managed by a
+ *         JPA/Hibernate
  * @Table (optional) - Provide table level configuration
  * @Id - Defines a property as a primary key
  * @GeneratedValue - Configure auto generated value
@@ -19,24 +26,40 @@ import javax.persistence.Transient;
  * @Transient - Marks a column to be ignored for persistence
  */
 
-@Entity 
-@Table(name="bears")
+@Entity
+@Table(name = "bears")
 public class Bear {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String gender;
-	
-	@Column(length=300)
+
+	@Column(length = 300)
 	private String breed;
-	
-	@Column(name="date_of_birth")
+
+	@Column(name = "date_of_birth")
 	private LocalDate dateOfBirth;
 
+	/** weight in kilograms */
 	@Transient
 	private double weight;
 
+	// The one side of a relationship by default loads eagerly
+	@ManyToOne(fetch = FetchType.EAGER)
+	@JoinColumn(name = "cave_id")
+	private Cave cave;
+	
+	@ManyToMany
+	@JoinTable(name="bear_cubs", joinColumns = { @JoinColumn(name="parent_id") },
+						inverseJoinColumns = { @JoinColumn(name="cub_id")})
+	private List<Bear> cubs;
+
+	@ManyToMany
+	@JoinTable(name="bear_cubs", joinColumns = { @JoinColumn(name="cub_id") },
+						inverseJoinColumns = { @JoinColumn(name="parent_id")})
+	private List<Bear> parents;
+	
 	public int getId() {
 		return id;
 	}
@@ -77,11 +100,36 @@ public class Bear {
 		this.weight = weight;
 	}
 
+	public Cave getCave() {
+		return cave;
+	}
+
+	public void setCave(Cave cave) {
+		this.cave = cave;
+	}
+	
+	public List<Bear> getCubs() {
+		return cubs;
+	}
+
+	public void setCubs(List<Bear> cubs) {
+		this.cubs = cubs;
+	}
+
+	public List<Bear> getParents() {
+		return parents;
+	}
+
+	public void setParents(List<Bear> parents) {
+		this.parents = parents;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((breed == null) ? 0 : breed.hashCode());
+		result = prime * result + ((cave == null) ? 0 : cave.hashCode());
 		result = prime * result + ((dateOfBirth == null) ? 0 : dateOfBirth.hashCode());
 		result = prime * result + ((gender == null) ? 0 : gender.hashCode());
 		result = prime * result + id;
@@ -104,6 +152,11 @@ public class Bear {
 			if (other.breed != null)
 				return false;
 		} else if (!breed.equals(other.breed))
+			return false;
+		if (cave == null) {
+			if (other.cave != null)
+				return false;
+		} else if (!cave.equals(other.cave))
 			return false;
 		if (dateOfBirth == null) {
 			if (other.dateOfBirth != null)
@@ -139,6 +192,6 @@ public class Bear {
 
 	public Bear() {
 		super();
+		// TODO Auto-generated constructor stub
 	}
-
 }

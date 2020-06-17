@@ -93,3 +93,187 @@
 2020-06-16 16:03:42 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4ed5eb72
 2020-06-16 16:03:42 INFO  DdlTransactionIsolatorNonJtaImpl:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a865416] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 2020-06-16 16:03:42 INFO  DriverManagerConnectionProviderImpl:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-16 16:36:30 INFO  Version:46 - HHH000412: Hibernate Core {5.3.6.Final}
+2020-06-16 16:36:30 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-06-16 16:36:30 INFO  JavaReflectionManager:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 16:36:30 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-16 16:36:30 INFO  DriverManagerConnectionProviderImpl:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-16 16:36:30 INFO  DriverManagerConnectionProviderImpl:138 - HHH10001001: Connection properties: {user=node_app_role, password=****}
+2020-06-16 16:36:30 INFO  DriverManagerConnectionProviderImpl:143 - HHH10001003: Autocommit mode: false
+2020-06-16 16:36:30 INFO  DriverManagerConnectionProviderImpl$PooledConnections:281 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-06-16 16:36:32 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-16 16:36:48 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-06-16 16:36:48 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4ed5eb72
+2020-06-16 16:36:48 INFO  DdlTransactionIsolatorNonJtaImpl:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a865416] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-16 16:36:49 INFO  DriverManagerConnectionProviderImpl:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-16 16:47:53 INFO  Version:46 - HHH000412: Hibernate Core {5.3.6.Final}
+2020-06-16 16:47:53 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-06-16 16:47:54 INFO  JavaReflectionManager:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 16:47:54 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-16 16:47:54 INFO  DriverManagerConnectionProviderImpl:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-16 16:47:54 INFO  DriverManagerConnectionProviderImpl:138 - HHH10001001: Connection properties: {user=node_app_role, password=****}
+2020-06-16 16:47:54 INFO  DriverManagerConnectionProviderImpl:143 - HHH10001003: Autocommit mode: false
+2020-06-16 16:47:54 INFO  DriverManagerConnectionProviderImpl$PooledConnections:281 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-06-16 16:47:56 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-16 16:48:12 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-06-16 16:48:12 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4ed5eb72
+2020-06-16 16:48:12 INFO  DdlTransactionIsolatorNonJtaImpl:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a865416] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-16 16:48:13 INFO  Launcher:79 - Bear [id=1, gender=male, breed=Polar, dateOfBirth=2020-06-16, weight=0.0]
+2020-06-16 16:48:13 INFO  DriverManagerConnectionProviderImpl:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-16 16:48:36 INFO  Version:46 - HHH000412: Hibernate Core {5.3.6.Final}
+2020-06-16 16:48:36 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-06-16 16:48:37 INFO  JavaReflectionManager:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 16:48:37 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-16 16:48:37 INFO  DriverManagerConnectionProviderImpl:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-16 16:48:37 INFO  DriverManagerConnectionProviderImpl:138 - HHH10001001: Connection properties: {user=node_app_role, password=****}
+2020-06-16 16:48:37 INFO  DriverManagerConnectionProviderImpl:143 - HHH10001003: Autocommit mode: false
+2020-06-16 16:48:37 INFO  DriverManagerConnectionProviderImpl$PooledConnections:281 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-06-16 16:48:38 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-16 16:48:55 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-06-16 16:48:55 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4ed5eb72
+2020-06-16 16:48:55 INFO  DdlTransactionIsolatorNonJtaImpl:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a865416] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-16 16:48:56 INFO  Launcher:79 - Bear [id=2, gender=female, breed=Brown Bear, dateOfBirth=2020-06-15, weight=0.0]
+2020-06-16 16:48:56 INFO  DriverManagerConnectionProviderImpl:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-16 16:50:20 INFO  Version:46 - HHH000412: Hibernate Core {5.3.6.Final}
+2020-06-16 16:50:20 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-06-16 16:50:20 INFO  JavaReflectionManager:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-16 16:50:21 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-16 16:50:21 INFO  DriverManagerConnectionProviderImpl:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-16 16:50:21 INFO  DriverManagerConnectionProviderImpl:138 - HHH10001001: Connection properties: {user=node_app_role, password=****}
+2020-06-16 16:50:21 INFO  DriverManagerConnectionProviderImpl:143 - HHH10001003: Autocommit mode: false
+2020-06-16 16:50:21 INFO  DriverManagerConnectionProviderImpl$PooledConnections:281 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-06-16 16:50:22 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-16 16:50:39 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-06-16 16:50:39 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4ed5eb72
+2020-06-16 16:50:39 INFO  DdlTransactionIsolatorNonJtaImpl:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a865416] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-16 16:50:40 INFO  Launcher:90 - Bear [id=2, gender=female, breed=Brown Bear, dateOfBirth=2020-06-15, weight=0.0]
+2020-06-16 16:50:40 INFO  DriverManagerConnectionProviderImpl:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-17 10:11:36 INFO  Version:46 - HHH000412: Hibernate Core {5.3.6.Final}
+2020-06-17 10:11:36 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-06-17 10:11:37 INFO  JavaReflectionManager:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-17 10:11:37 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 10:11:37 INFO  DriverManagerConnectionProviderImpl:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-17 10:11:37 INFO  DriverManagerConnectionProviderImpl:138 - HHH10001001: Connection properties: {user=node_app_role, password=****}
+2020-06-17 10:11:37 INFO  DriverManagerConnectionProviderImpl:143 - HHH10001003: Autocommit mode: false
+2020-06-17 10:11:37 INFO  DriverManagerConnectionProviderImpl$PooledConnections:281 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-06-17 10:11:39 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-17 10:11:56 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-06-17 10:11:56 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4ed5eb72
+2020-06-17 10:11:57 INFO  DdlTransactionIsolatorNonJtaImpl:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a865416] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-17 10:11:57 INFO  DriverManagerConnectionProviderImpl:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-17 10:15:53 INFO  Version:46 - HHH000412: Hibernate Core {5.3.6.Final}
+2020-06-17 10:15:53 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-06-17 10:15:54 INFO  JavaReflectionManager:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-17 10:15:54 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 10:15:54 INFO  DriverManagerConnectionProviderImpl:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-17 10:15:54 INFO  DriverManagerConnectionProviderImpl:138 - HHH10001001: Connection properties: {user=node_app_role, password=****}
+2020-06-17 10:15:54 INFO  DriverManagerConnectionProviderImpl:143 - HHH10001003: Autocommit mode: false
+2020-06-17 10:15:54 INFO  DriverManagerConnectionProviderImpl$PooledConnections:281 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-06-17 10:15:55 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-17 10:16:12 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-06-17 10:16:12 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4ed5eb72
+2020-06-17 10:16:12 INFO  DdlTransactionIsolatorNonJtaImpl:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a865416] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-17 10:17:41 INFO  Version:46 - HHH000412: Hibernate Core {5.3.6.Final}
+2020-06-17 10:17:41 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-06-17 10:17:42 INFO  JavaReflectionManager:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-17 10:17:42 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 10:17:42 INFO  DriverManagerConnectionProviderImpl:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-17 10:17:42 INFO  DriverManagerConnectionProviderImpl:138 - HHH10001001: Connection properties: {user=node_app_role, password=****}
+2020-06-17 10:17:42 INFO  DriverManagerConnectionProviderImpl:143 - HHH10001003: Autocommit mode: false
+2020-06-17 10:17:42 INFO  DriverManagerConnectionProviderImpl$PooledConnections:281 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-06-17 10:17:43 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-17 10:18:00 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-06-17 10:18:00 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4ed5eb72
+2020-06-17 10:18:00 INFO  DdlTransactionIsolatorNonJtaImpl:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a865416] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-17 10:18:01 INFO  DriverManagerConnectionProviderImpl:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-17 10:20:55 INFO  Version:46 - HHH000412: Hibernate Core {5.3.6.Final}
+2020-06-17 10:20:55 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-06-17 10:20:55 INFO  JavaReflectionManager:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-17 10:20:56 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-17 10:20:56 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2020-06-17 10:20:56 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@152aa092
+2020-06-17 10:20:56 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 10:20:56 INFO  DriverManagerConnectionProviderImpl:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-17 10:20:56 INFO  DriverManagerConnectionProviderImpl:138 - HHH10001001: Connection properties: {user=node_app_role, password=****}
+2020-06-17 10:20:56 INFO  DriverManagerConnectionProviderImpl:143 - HHH10001003: Autocommit mode: false
+2020-06-17 10:20:56 INFO  DriverManagerConnectionProviderImpl$PooledConnections:281 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-06-17 10:20:57 INFO  DdlTransactionIsolatorNonJtaImpl:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@512d92b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-17 10:22:04 INFO  Version:46 - HHH000412: Hibernate Core {5.3.6.Final}
+2020-06-17 10:22:04 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-06-17 10:22:04 INFO  JavaReflectionManager:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-17 10:22:04 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-17 10:22:05 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2020-06-17 10:22:05 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@152aa092
+2020-06-17 10:22:05 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 10:22:05 INFO  DriverManagerConnectionProviderImpl:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-17 10:22:05 INFO  DriverManagerConnectionProviderImpl:138 - HHH10001001: Connection properties: {user=node_app_role, password=****}
+2020-06-17 10:22:05 INFO  DriverManagerConnectionProviderImpl:143 - HHH10001003: Autocommit mode: false
+2020-06-17 10:22:05 INFO  DriverManagerConnectionProviderImpl$PooledConnections:281 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-06-17 10:22:06 INFO  DdlTransactionIsolatorNonJtaImpl:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@512d92b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-17 10:22:09 INFO  DriverManagerConnectionProviderImpl:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-17 10:25:00 INFO  Version:46 - HHH000412: Hibernate Core {5.3.6.Final}
+2020-06-17 10:25:00 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-06-17 10:25:00 INFO  JavaReflectionManager:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-17 10:25:01 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-17 10:25:01 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2020-06-17 10:25:01 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@152aa092
+2020-06-17 10:25:02 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 10:25:02 INFO  DriverManagerConnectionProviderImpl:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-17 10:25:02 INFO  DriverManagerConnectionProviderImpl:138 - HHH10001001: Connection properties: {user=node_app_role, password=****}
+2020-06-17 10:25:02 INFO  DriverManagerConnectionProviderImpl:143 - HHH10001003: Autocommit mode: false
+2020-06-17 10:25:02 INFO  DriverManagerConnectionProviderImpl$PooledConnections:281 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-06-17 10:25:03 INFO  DdlTransactionIsolatorNonJtaImpl:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@512d92b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-17 10:30:14 INFO  Version:46 - HHH000412: Hibernate Core {5.3.6.Final}
+2020-06-17 10:30:14 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-06-17 10:30:15 INFO  JavaReflectionManager:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-17 10:30:15 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-17 10:30:15 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2020-06-17 10:30:15 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@152aa092
+2020-06-17 10:30:16 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 10:30:16 INFO  DriverManagerConnectionProviderImpl:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-17 10:30:16 INFO  DriverManagerConnectionProviderImpl:138 - HHH10001001: Connection properties: {user=node_app_role, password=****}
+2020-06-17 10:30:16 INFO  DriverManagerConnectionProviderImpl:143 - HHH10001003: Autocommit mode: false
+2020-06-17 10:30:16 INFO  DriverManagerConnectionProviderImpl$PooledConnections:281 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-06-17 10:30:17 INFO  DdlTransactionIsolatorNonJtaImpl:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@512d92b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-17 10:30:19 INFO  DriverManagerConnectionProviderImpl:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-17 10:30:31 INFO  Version:46 - HHH000412: Hibernate Core {5.3.6.Final}
+2020-06-17 10:30:31 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-06-17 10:30:31 INFO  JavaReflectionManager:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-06-17 10:30:32 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-17 10:30:32 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2020-06-17 10:30:32 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@152aa092
+2020-06-17 10:30:33 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 10:30:33 INFO  DriverManagerConnectionProviderImpl:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-17 10:30:33 INFO  DriverManagerConnectionProviderImpl:138 - HHH10001001: Connection properties: {user=node_app_role, password=****}
+2020-06-17 10:30:33 INFO  DriverManagerConnectionProviderImpl:143 - HHH10001003: Autocommit mode: false
+2020-06-17 10:30:33 INFO  DriverManagerConnectionProviderImpl$PooledConnections:281 - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-06-17 10:30:34 INFO  DdlTransactionIsolatorNonJtaImpl:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@512d92b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-17 10:30:36 INFO  DriverManagerConnectionProviderImpl:233 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://training-db-200427.cstflnuhd9cf.us-east-1.rds.amazonaws.com:5432/postgres]
+2020-06-17 10:30:45 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 10:33:18 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 10:40:39 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 10:41:27 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:16:08 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:17:10 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:18:51 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:22:42 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:28:51 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:30:05 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:32:45 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:32:48 WARN  Launcher:110 - Cave [id=4, name=Bear Cave, location=Underground, livingSpace=500.0]
+2020-06-17 11:33:31 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:33:35 WARN  Launcher:110 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.revature.models.Cave.bears, could not initialize proxy - no Session
+2020-06-17 11:38:11 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:38:15 WARN  Launcher:110 - Cave [id=4, name=Bear Cave, location=Underground, livingSpace=500.0, bears=[Bear [id=1, gender=male, breed=Polar, dateOfBirth=2020-06-11, weight=0.0]]]
+2020-06-17 11:41:30 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:43:57 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:44:08 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:44:12 WARN  Launcher:117 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.revature.models.Cave.bears, could not initialize proxy - no Session
+2020-06-17 11:45:47 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:45:51 WARN  Launcher:117 - Bear [id=1, gender=male, breed=Polar, dateOfBirth=2020-06-11, weight=0.0]
+2020-06-17 11:46:11 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 11:46:14 WARN  Launcher:117 - Bear [id=1, gender=male, breed=Polar, dateOfBirth=2020-06-11, weight=0.0]
+2020-06-17 11:46:14 WARN  Launcher:118 - Cave [id=4, name=Bear Cave, location=Underground, livingSpace=500.0]
+2020-06-17 11:52:11 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 12:01:11 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-17 12:05:48 WARN  DriverManagerConnectionProviderImpl:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
