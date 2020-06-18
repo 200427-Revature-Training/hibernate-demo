@@ -13,6 +13,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
@@ -26,6 +28,9 @@ import javax.persistence.Transient;
  * @Transient - Marks a column to be ignored for persistence
  */
 
+@NamedQueries(value = {
+		@NamedQuery(name = "getBearsByBreed", query="FROM Bear b WHERE breed = :breed")
+})
 @Entity
 @Table(name = "bears")
 public class Bear {

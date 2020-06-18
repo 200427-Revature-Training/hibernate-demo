@@ -2,15 +2,17 @@ package com.revature;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 import javax.persistence.PersistenceException;
 
 import org.apache.log4j.Logger;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
 import org.hibernate.service.ServiceRegistry;
 
 import com.revature.daos.BearDao;
@@ -71,9 +73,7 @@ public class Launcher {
 		return sessionFactory;
 	}
 	
-	
-	
-	static void runCrudDemo() {
+	public static void runCrudDemo() {
 		BearDao bearDao = new BearDao();
 
 		Optional<Bear> bear = bearDao.selectBear(2);
@@ -135,11 +135,30 @@ public class Launcher {
 		bearDao.addCubs(bear, cubA, cubB);		
 	}
 	
+	public static void runQueryDemo() {
+		BearDao bearDao = new BearDao();
+		List<Bear> brownBears = bearDao.getBearsByBreed("brown bear");
+		System.out.println(brownBears);
+		
+		CaveDao caveDao = new CaveDao();
+		List<Cave> caves = caveDao.getCavesByName("Luminous Cave");
+		System.out.println(caves);
+		
+		List<Cave> canadianCaves = caveDao.getCavesByLocation("Underground");
+		System.out.println(canadianCaves);
+		
+		try(Session session = sf.openSession()) {
+			Query<Bear> query = session.getNamedQuery("getBearsByBreed");
+			query.setParameter("breed", "Brown Bear");
+			System.out.println(query.getResultList());
+		}
+	}
+	
 	public static void main(String[] args) {
 		sf = configureHibernate();
 
 		try {
-			relationalDemo();
+			runQueryDemo();
 		} catch(PersistenceException e) {
 			e.printStackTrace();
 			sf.close();

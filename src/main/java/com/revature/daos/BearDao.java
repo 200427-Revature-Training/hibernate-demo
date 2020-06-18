@@ -8,6 +8,7 @@ import org.hibernate.Hibernate;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.query.Query;
 
 import com.revature.Launcher;
 import com.revature.models.Bear;
@@ -39,6 +40,21 @@ public class BearDao {
 			// commit if changed on a "persistent" object
 			bear.setBreed("Brown Bear");
 			tx.commit();
+		}
+	}
+	
+	/**
+	 * HQL query to retrieve bears by breed
+	 * @param breed
+	 * @return
+	 */
+	public List<Bear> getBearsByBreed(String breed) {
+		try(Session session = sf.openSession()) {
+			String hql = "FROM Bear b WHERE LOWER(b.breed) = :breed";
+			Query<Bear> query = session.createQuery(hql, Bear.class);
+			query.setParameter("breed", breed.toLowerCase());
+			List<Bear> bears = query.getResultList();
+			return bears;
 		}
 	}
 	
